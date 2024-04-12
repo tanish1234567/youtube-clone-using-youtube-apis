@@ -2,45 +2,45 @@ import React from "react";
 
 const commentsData = [
   {
-    name: "Akshay Saini",
-    text: "Lorem ipsum dolor sit amet, consectetur adip",
+    name: "Tanish Mahajan",
+    text: "This is a nice video",
     replies: [],
   },
   {
-    name: "Akshay Saini",
-    text: "Lorem ipsum dolor sit amet, consectetur adip",
+    name: "Tanish Mahajan",
+    text: "This is a nice video",
     replies: [
       {
-        name: "Akshay Saini",
-        text: "Lorem ipsum dolor sit amet, consectetur adip",
+        name: "Tanish Mahajan",
+        text: "This is a nice video",
         replies: [],
       },
       {
-        name: "Akshay Saini",
-        text: "Lorem ipsum dolor sit amet, consectetur adip",
+        name: "Tanish Mahajan",
+        text: "This is a nice video",
         replies: [
           {
-            name: "Akshay Saini",
-            text: "Lorem ipsum dolor sit amet, consectetur adip",
+            name: "Tanish Mahajan",
+            text: "This is a nice video",
             replies: [
               {
-                name: "Akshay Saini",
-                text: "Lorem ipsum dolor sit amet, consectetur adip",
+                name: "Tanish Mahajan",
+                text: "This is a nice video",
                 replies: [
                   {
-                    name: "Akshay Saini",
-                    text: "Lorem ipsum dolor sit amet, consectetur adip",
+                    name: "Tanish Mahajan",
+                    text: "This is a nice video",
                     replies: [
                       {
-                        name: "Akshay Saini",
-                        text: "Lorem ipsum dolor sit amet, consectetur adip",
+                        name: "Tanish Mahajan",
+                        text: "This is a nice video",
                         replies: [],
                       },
                     ],
                   },
                   {
-                    name: "Akshay Saini",
-                    text: "Lorem ipsum dolor sit amet, consectetur adip",
+                    name: "Tanish Mahajan",
+                    text: "This is a nice video",
                     replies: [],
                   },
                 ],
@@ -52,23 +52,23 @@ const commentsData = [
     ],
   },
   {
-    name: "Akshay Saini",
-    text: "Lorem ipsum dolor sit amet, consectetur adip",
+    name: "Tanish Mahajan",
+    text: "This is a nice video",
     replies: [],
   },
   {
-    name: "Akshay Saini",
-    text: "Lorem ipsum dolor sit amet, consectetur adip",
+    name: "Tanish Mahajan",
+    text: "This is a nice video",
     replies: [],
   },
   {
-    name: "Akshay Saini",
-    text: "Lorem ipsum dolor sit amet, consectetur adip",
+    name: "Tanish Mahajan",
+    text: "This is a nice video",
     replies: [],
   },
   {
-    name: "Akshay Saini",
-    text: "Lorem ipsum dolor sit amet, consectetur adip",
+    name: "Tanish Mahajan",
+    text: "This is a nice video",
     replies: [],
   },
 ];
@@ -91,7 +91,6 @@ const Comment = ({ data }) => {
 };
 
 const CommentsList = ({ comments }) => {
-  // Disclaimer: Don't use indexes as keys
   return comments.map((comment, index) => (
     <div key={index}>
       <Comment data={comment} />
